@@ -1,15 +1,25 @@
-h1, h2, h3, p, span{
+h1,
+h2,
+h3,
+p,
+span{
   font-family: Helvetica;
 }
 h2{
-  font-family: Helvetica;
   font-size: 32px;
-  font-weight: bold;
   color: white;
 }
+span{
+  color: blue;
+}
+
+/*class for same style, different elements like h2 span*/
+.bold{
+  font-weight: bold;
+}
+
 #title{
   font-size: 100px;
-  font-weight: bold;
   color: khaki;
   text-align: center;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
@@ -22,8 +32,4 @@ h2{
 }
 #paint{
   background-color: skyblue;
-}
-span{
-  font-weight: bold;
-  color: blue;
 }
